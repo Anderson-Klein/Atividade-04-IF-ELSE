@@ -7,13 +7,13 @@ public class main {
         int numero = 0;
         Scanner scanner = new Scanner(System.in);
 
-        System.out.printf("Digite um numero: ");
+        System.out.println("Digite um numero: ");
         numero = scanner.nextInt();
 
         if (numero % 2 == 0) {
-            System.out.printf("- é par");
+            System.out.println("- é par");
         }else{
-            System.out.printf("- é impar");
+            System.out.println("- é impar");
         }
 
 
